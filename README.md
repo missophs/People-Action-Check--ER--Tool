@@ -2,10 +2,13 @@
 
 A Slack app that gives managers guided decision support on 10 employee-management situations, and gives HR a protected queue for the cases managers choose to escalate.
 
+## Slack demo
+
+https://github.com/user-attachments/assets/be1bf0b1-0ac9-4d08-937e-8589a85217c7
+
+## Web demo
+
 https://github.com/user-attachments/assets/6f710d94-98a3-4082-a42a-09a5e0012c86
-
-
-<!-- VIDEO: on github.com, edit this file and drag pac-demo.mp4 here; GitHub inserts the link. -->
 
 ## The problem
 
