@@ -1,48 +1,50 @@
 # People Action Check
 
-AI-Powered Manager & HR Decision Support Platform
+A Slack app that gives managers guided decision support on 10 employee-management situations, and gives HR a protected queue for the cases managers choose to escalate.
 
-People Action Check helps managers and HR partners navigate 10 employee management scenarios through guided workflows, documentation support, risk assessment, and structured escalation paths.
+https://github.com/user-attachments/assets/6f710d94-98a3-4082-a42a-09a5e0012c86
 
-## What It Does
 
-Managers can:
+<!-- VIDEO: on github.com, edit this file and drag pac-demo.mp4 here; GitHub inserts the link. -->
 
-- Conduct a private "gut check"
-- Assess employee situations
-- Receive scenario-specific guidance
-- Document actions consistently
-- Upload supporting documents
-- Follow structured documentation recommendations
-- Escalate matters directly to HR
+## The problem
 
-HR can:
+Managers act on employee issues without knowing what to document, how risky the situation is, or when to bring in HR. That is where repeat issues, escalations, and legal exposure start.
 
-- Review escalated cases
-- Access supporting documentation
-- Monitor risk indicators
-- Track case status
-- Maintain governance oversight
-- Support managers through complex employee situations
+## How it works in Slack
 
-## Key Features
+1. **Pick the situation.** Performance decline, attendance, interpersonal conflict, policy violation, termination consideration, accommodation request, harassment or discrimination, retaliation concern, reduction in force, and more. Work stays private until the manager chooses to submit a snapshot to HR.
+2. **Answer guided questions.** Each has an optional note and a "why this matters" line. Critical questions, such as possible leave or accommodation factors, tell the manager to stop and consult HR before acting if the answer is yes or unsure.
+3. **Review the assessment.** Answers roll up to one of three risk levels (Low, Medium, High). High risk reads: stop, HR and when appropriate legal review are required before action.
+4. **Escalate on purpose.** Submitting to HR is an explicit step. The manager also gets a private history of their own checks that only they can access.
 
-- Slack and web-based experience
-- 10 employee management scenarios
-- AI-guided decision support
-- Documentation guidance
-- File upload capability
-- Risk assessment framework
-- HR escalation workflows
-- Human review requirements
+## What each side gets
 
-## Impact
+| Managers | HR |
+| --- | --- |
+| Assess: 10 situations, 50 questions, three risk levels | Receive: private alerts and a protected review queue |
+| Document: notes, links, files, Word reports | Review: submitter names, risk ratings, attachments |
+| Continue: save and resume, private history, policy viewing | Respond: status, review notes, manager notification |
+| Escalate: explicit private submission to HR | Manage: add, edit, and delete policies |
 
-- Reduced employee relations risk exposure by 20%
-- Reduced repeat issues and escalations
-- Improved documentation consistency
-- Embedded governance controls and human oversight
+## Governance and privacy
 
-## Responsible AI
+- **Access:** Slack identity, owner checks, and an HR allowlist.
+- **Privacy:** private drafts, and fixed snapshots at the moment of submission to HR.
+- **Control:** restricted policy administration, retention rules, and audit history.
+- **Recovery:** delivery retry and daily verified backups.
+- Supports manager and HR decision-making. It does not make employment decisions, and human review is required for any employee action or escalation.
 
-People Action Check supports manager and HR decision-making but does not make employment decisions. Human review remains required for employee actions and escalations.
+## Access and data
+
+- One shared app for Slack workspace members, so there is no separate installation per manager.
+- Works on desktop, web, and mobile Slack.
+- App records are stored in SQLite. Messages and files stay in Slack's own retention.
+
+## Results
+
+The Slack workflow, deployed with a DHW Consulting client, reduced employee-relations risk exposure 20%, measured by fewer escalations and repeat issues.
+
+## Web version
+
+A browser version of the same check is live at [peopleactioncheck.netlify.app](https://peopleactioncheck.netlify.app). It has the same 10 situations, risk levels, session history, follow-up reminders, a Word report download, and an HR dashboard.
