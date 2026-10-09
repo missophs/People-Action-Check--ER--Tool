@@ -1,0 +1,159 @@
+PEOPLE ACTION CHECK
+Private Slack guidance for documented people-management actions
+CLOUD CONNECTION VERIFIED
+HOW A CHECK MOVES
+1 Choose
+Select from 10 situations 
+and read the relevant 
+guidance.
+2 Assess
+Answer five questions per 
+situation; add notes and 
+evidence.
+3 Review
+See Low, Medium or High 
+risk and suggested next 
+steps.
+4 Submit to HR
+Share the case for HR 
+review, documentation and 
+reporting.
+WHAT MANAGERS & HR CAN DO
+Managers save and resume private checks, add 
+documentation, request Word reports and submit to HR.
+HR reviews full submitted cases, downloads reports, adds 
+documents and uses the Governance Center.
+HOW IT RUNS & WHO GOVERNS
+Slack → Cloudflare → Supabase
+Cloudflare hosts the app; Supabase stores records. Slack 
+stores messages and uploaded files.
+PRIVATE BY DESIGN Private drafts; HR reviews submitted case details. Access, retention and audit controls are built in.
+No generative AI. Wider rollout still needs access, recovery and delivery checks.
+
+A private workflow for managers
+Assess the situation, keep the factual record, and choose when to share
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 2
+Assess and document
+Choose one or more situations. Read 
+examples and documentation guidance.
+Answer five questions per situation with 
+Yes, No or Don’t know. Add notes, links 
+and Slack files.
+Save, review and continue
+Save a partial check and resume from 
+My history. Review recorded answers 
+and suggested next steps.
+Request a Word report or set a follow￾up date. Dates are visible; reminders 
+are not automatically sent.
+
+HR reviews explicitly shared cases
+Case details, supporting documents, HR review and downloadable reports
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 3
+Confirm sharing
+The manager sees the 
+recipients and disclosure 
+before submitting.
+Review the case
+HR sees answers, notes, 
+risk guidance and 
+supporting documents; 
+download Word reports to 
+their private app DM.
+Record a response
+HR adds documents, review 
+notes and status; the 
+manager receives a private 
+update.
+HR manages the policy library and Governance Center. Submitted answers are preserved 
+while HR review details can be updated.
+
+Risk guidance supports human decisions
+Responses produce a rule-based assessment, not an employment decision
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 4
+LOW
+Use the guidance
+Review the suggested 
+steps and keep 
+documentation current.
+MEDIUM
+Resolve the gaps
+Review uncertainty and 
+documentation; consult 
+HR as appropriate.
+HIGH
+Stop for review
+The app directs HR and, 
+when appropriate, legal 
+review before action.
+Critical risk or an unknown critical response can force High risk. The app has no generative AI and 
+does not rate employee performance.
+
+Privacy and governance in the workflow
+Share deliberately and keep access limited to the people who need it
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 5
+Governance Center is built
+HR sees control status, authorized 
+reviewer count, retention settings and 
+record counts.
+Recent audit activity shows governed 
+actions and who performed them.
+HR access controls protect review and 
+policy changes.
+Privacy and record controls
+Private drafts have owner access 
+checks.
+Retention is configurable; Slack files 
+follow workspace controls.
+Deleting a personal check preserves the 
+submitted HR case and delivered 
+reports.
+
+The app now runs in the cloud
+Slack is the interface; the app no longer depends on a Mac process
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 6
+Slack
+Forms, buttons, private 
+notifications
+Cloudflare
+Online app, routing and 
+protected settings
+Supabase
+Checks, shared 
+snapshots, policies and 
+audit records
+What “backed up” means
+App code and text documentation are saved in GitHub. That is separate from employee-data 
+backup: cloud backup and restore still need verification.
+
+What was actually checked
+Live connection recovery plus automated workflow tests
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 7
+Observed live in Slack
+History and a saved assessment opened.
+Policy library and HR queue opened.
+The new-check entry screen opened.
+Cloud storage health returned OK.
+Automated evidence
+31 passing tests
+81 Slack payload checks
+External Slack responses are simulated in the 
+tests. Cloud build also passed.
+
+Before a wider rollout
+Keep the working pilot and finish the operational checks
+PEOPLE ACTION CHECK | REVIEW VERSION | OCTOBER 9, 2026 8
+Verify reliability
+• Test separate manager and HR 
+accounts
+• Check simultaneous edits in cloud 
+storage
+• Exercise failed deliveries and retry
+• Verify a cloud backup and restore
+Confirm rollout settings
+• Confirm HR content and access 
+owners
+• Confirm agreed retention settings
+• Assign monitoring, recovery and 
+support
+• Check mobile and accessible 
+layouts
