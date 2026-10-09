@@ -180,6 +180,13 @@ export function registerHandlers(app, { store, team, hrs, retentionDays = 0, rep
     await audit(body.user.id, 'report.exported', 'check', r.id, { destination: 'private_dm' });
     await update(client, body, v.notice('Your Word report was sent to your private app DM.'));
   });
+  register('action', 'hr_export', async ({ ack, body, action, client }) => {
+    await ack(); hrRequired(body.user.id);
+    const r = await store.get(action.value, team, 'submission');
+    await reportDelivery(client, body.user.id, r);
+    await audit(body.user.id, 'report.exported', 'submission', r.id, { destination: 'private_dm' });
+    // Leave the review modal untouched so unsaved review fields are preserved.
+  });
   register('action', 'share', async ({ ack, body, action, client }) => {
     await ack(); const r = await own(action.value, body.user.id);
     if (!completed(r)) throw Error('This check changed. Close and resume from Home.');

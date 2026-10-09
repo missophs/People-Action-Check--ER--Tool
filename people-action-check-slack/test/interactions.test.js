@@ -121,3 +121,15 @@ test('database failure acknowledges submission; API failures show recoverable UI
  const h=harness(t);await h.command();const original=h.store.save.bind(h.store);h.store.save=()=>{throw Error('sensitive database internals');};await h.submit({scenarios:[v.names[0]],employee:'Test'});assert.equal(h.view.callback_id,'notice');assert.ok(!JSON.stringify(h.view).includes('sensitive'));h.store.save=original;
  h.fail['views.publish']=Error('network');await h.event();assert.ok(h.logs.length);assert.ok(h.logs.every(x=>!x.includes('sensitive')));
 });
+
+
+test('HR downloads saved case report privately with review details and access checks',async t=>{
+ const h=harness(t);const s=h.store.save('submission',TEAM,{...sample(),id:'hr-export-case',submittedBy:USER,reviewStatus:'Closed',reviewNote:'HR finding',hrEvidenceFiles:[{id:'FHR',name:'HR evidence.pdf'}]});
+ await h.action('review',s.id,{user:HR});assert.ok(JSON.stringify(h.view).includes('hr_export'));
+ const updates=h.count('views.update');await h.action('hr_export',s.id,{user:HR});
+ assert.equal(h.count('files.uploadV2'),1);assert.equal(h.calls.find(c=>c.method==='conversations.open').arg.users,HR);assert.equal(h.count('views.update'),updates);
+ assert.ok(v.report(s).includes('HR review note: HR finding'));assert.ok(v.report(s).includes('HR evidence.pdf'));
+ assert.ok(h.store.listAudit(TEAM).some(e=>e.action==='report.exported'&&e.targetKind==='submission'));
+ await h.action('hr_export',s.id,{user:USER});assert.equal(h.count('files.uploadV2'),1);assert.ok(JSON.stringify(h.view).includes('HR access required'));
+ await h.action('hr_export','missing',{user:HR});assert.equal(h.count('files.uploadV2'),1);
+});
