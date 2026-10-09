@@ -1,0 +1,15 @@
+
+
+PEOPLE ACTION CHECK
+One-page Slack app overview  •  October 2026
+SLACK HR PILOT
+What it does
+A manager completes a guided check for a people issue, records facts and documentation, and receives a Low, Medium or High Risk result with practical next steps.
+What Slack provides
+Private App Home, guided Block Kit forms, manager history, company policies, document attachments, HR alerts and a protected HR review queue with response notes.
+Where information is saved
+The app appears in Slack. Draft checks remain private to the manager. Submitting creates an HR snapshot and private notification. Messages and files also follow the company’s Slack retention settings.
+Who can access what?
+Managers can run checks, attach records, view history and read policies. Approved HR reviewers can manage policies and review submissions. Everyone must first be a member of the Slack workspace.
+NEXT STEP
+Have HR and IT own hosting, reviewer access, policies, retention and support before wider use

@@ -1,0 +1,11 @@
+services:
+  people-action-check:
+    build: .
+    env_file: .env
+    environment:
+      DATA_PATH: /app/data/pac.sqlite
+    volumes:
+      - pac-data:/app/data
+    restart: unless-stopped
+volumes:
+  pac-data:

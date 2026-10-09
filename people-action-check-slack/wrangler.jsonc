@@ -1,0 +1,8 @@
+{
+  "name": "people-action-check",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": { "crons": ["0 6 * * *"] },
+  "observability": { "enabled": true }
+}

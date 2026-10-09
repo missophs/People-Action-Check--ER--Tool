@@ -1,0 +1,52 @@
+{
+  "type": "modal",
+  "callback_id": "inbox",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "HR review queue"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "0 total submissions · Private to configured HR reviewers"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No HR submissions are waiting for review."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "inbox_page",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

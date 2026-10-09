@@ -1,0 +1,153 @@
+{
+  "type": "home",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "People Action Check"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Private decision support for consistent, documented people-management actions."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "HR reviewer access · Governance controls enabled"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Start a new check"
+          },
+          "action_id": "new",
+          "value": "new"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "My history"
+          },
+          "action_id": "my_history",
+          "value": "my_history"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "refresh_home",
+          "value": "refresh_home"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear my history"
+          },
+          "action_id": "clear_history",
+          "value": "clear_history"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Company policies"
+          },
+          "action_id": "policies",
+          "value": "policies"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "HR review queue"
+          },
+          "action_id": "inbox",
+          "value": "inbox"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Governance Center"
+          },
+          "action_id": "governance",
+          "value": "governance"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Add policy"
+          },
+          "action_id": "add_policy",
+          "value": "add_policy"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Recent activity"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 Synthetic employee\nLow Risk · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nUpdated 2026-09-29"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "View assessment"
+          },
+          "action_id": "open",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "General guidance only — not legal advice. © 2026 Melissa A. Weiss. All rights reserved."
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "modal",
+  "callback_id": "followup_save",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "input",
+      "block_id": "date",
+      "label": {
+        "type": "plain_text",
+        "text": "Follow-up date (YYYY-MM-DD); blank to dismiss"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 10,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Due dates appear in your App Home. No automatic reminder messages are sent."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Save"
+  }
+}

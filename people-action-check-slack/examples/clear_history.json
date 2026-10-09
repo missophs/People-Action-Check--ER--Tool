@@ -1,0 +1,40 @@
+{
+  "type": "modal",
+  "callback_id": "clear_history_confirm",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"count\":3}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Clear my history"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Delete all 3 personal checks from your App Home?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "This cannot be undone. HR snapshots, Slack messages, and files already submitted or delivered remain available under their separate retention rules."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Clear history"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "modal",
+  "callback_id": "share_confirm",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Submit for HR review"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "This sends HR a private Slack notification and adds an immutable snapshot to the HR inbox."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Included: employee name, situations, answers, notes, supporting links, and attached-document references."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "HR reviewers: <@UHR>"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "A Word report is sent to your private app DM. Shared snapshots remain in the HR inbox if you later edit or delete your personal check."
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit to HR"
+  }
+}

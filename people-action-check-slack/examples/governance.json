@@ -1,0 +1,86 @@
+{
+  "type": "modal",
+  "callback_id": "governance",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Governance Center"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Data classification: Restricted HR\nSystem of record: encrypted persistent application storage\nSlack delivery: workspace retention and administrator controls apply"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "1 authorized HR reviewer · 365-day retention"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Control status"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Access control: HR allowlist enforced server-side\nReview workflow: New → In review → Closed\nPersonal checks: 3\nHR submissions: 1\nCompany policies: 2"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Recent audit activity"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "<!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> · submission.created\nActor: <@UDEMO> · submission"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh controls"
+          },
+          "action_id": "governance",
+          "value": "governance"
+        }
+      ]
+    }
+  ]
+}

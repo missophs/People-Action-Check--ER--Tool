@@ -1,0 +1,434 @@
+{
+  "type": "modal",
+  "callback_id": "answers",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Retaliation Concern"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Assessment 8 of 10 · 50 of 50 answered"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Complete each answer to calculate the assessment. Save and close keeps submitted answers and notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation matters: use the notes under each answer to record dates, facts, conversations, and supporting records."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "36. Has the employee engaged in protected activity within the past 12 months? [Critical]\nWhy this matters: Protected activity includes: filing an HR complaint, requesting accommodation, taking FMLA, participating in an investigation."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q35_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "No"
+          },
+          "value": "no"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n35_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "37. Is the adverse action you are considering closely timed to that activity? [Critical]\nWhy this matters: Courts consider anything within a few weeks to a few months as potentially suspicious."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q36_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "No"
+          },
+          "value": "no"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n36_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "38. Has HR or legal reviewed the proposed action and its timing? [Critical]\nWhy this matters: No adverse action should proceed in this context without independent review."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q37_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n37_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "39. Is there documented, non-retaliatory business rationale that predates the protected activity?\nWhy this matters: If the issue existed before the complaint, show documentation that proves it."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q38_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n38_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "40. Has the employee been informed of their anti-retaliation rights?\nWhy this matters: Most federal and state laws require this communication."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q39_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n39_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "nav_7_1",
+      "label": {
+        "type": "plain_text",
+        "text": "After submitting this page"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Next situation"
+            },
+            "value": "next"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Save and close"
+            },
+            "value": "save"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Previous situation"
+            },
+            "value": "back"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Next situation"
+          },
+          "value": "next"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear page"
+          },
+          "action_id": "clear_answers",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit answers"
+  }
+}

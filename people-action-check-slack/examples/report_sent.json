@@ -1,0 +1,22 @@
+{
+  "type": "modal",
+  "callback_id": "notice",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Your Word report was sent to your private app DM."
+      }
+    }
+  ]
+}

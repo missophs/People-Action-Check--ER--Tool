@@ -1,0 +1,343 @@
+{
+  "type": "modal",
+  "callback_id": "result",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":0}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Risk assessment"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 LOW RISK\nRisk scale: 🟢 Low  ·  🟡 Medium  ·  🔴 High\nContinue with the documented manager process and confirm company policy.\n\nEmployee or case: Synthetic employee"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Private draft · Yes 4 · No 1 · Don’t know 0"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "The result reflects the weighted answers across this check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Assessment uses polarity-aware scoring (v2). Guidance is not clearance to act."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation & supporting evidence"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Keep the factual record together before taking action or submitting to HR."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No supporting links or context added yet."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No documents attached."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Add documentation"
+          },
+          "action_id": "attachments",
+          "value": "synthetic-check",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Policy Violation"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Issue appropriate discipline per your progressive discipline framework.\n2. Document the violation, the evidence, and the disciplinary action taken. Get a signature.\n3. Confirm in writing that the employee understands the policy and what a repeat offense would mean."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "If you are not certain the policy applies clearly to this situation, or if similar behavior has been overlooked in the past — contact HR before taking action."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Recorded answers"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 1"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Is the policy written, accessible, and clearly worded?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 2"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Has this policy been applied consistently to others in similar situations?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 3"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Would the employee reasonably have understood that this behavior violated policy?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 4"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Is this a first offense, or is there prior disciplinary history?\nAnswer key: Yes = offense history established; No = not established; Don’t know = uncertain."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 5"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Are there mitigating circumstances that warrant consideration before acting?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: NO\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 1"
+          },
+          "action_id": "result_page_0",
+          "value": "{\"id\":\"synthetic-check\",\"page\":0,\"hr\":false}",
+          "accessibility_label": "View Policy Violation"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit answers"
+          },
+          "action_id": "edit",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Report to my DM"
+          },
+          "action_id": "export",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Send to me and HR"
+          },
+          "action_id": "share",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Follow-up"
+          },
+          "action_id": "followup",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Run again"
+          },
+          "action_id": "rerun",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete check"
+          },
+          "action_id": "delete_check",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Submission delivery"
+          },
+          "action_id": "submission_status",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "General guidance only — not legal advice. © 2026 Melissa A. Weiss. All rights reserved."
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📋 Reduction in Force"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · High Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "You are eliminating positions due to business need. An RIF requires documented selection criteria, adverse impact analysis, and compliance with notice obligations."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• A company eliminating a product line and laying off the associated team.\n• A department restructuring that consolidates three roles into two.\n• A budget-driven reduction affecting 10% of headcount across multiple teams.\n• A merger that creates redundant functions across two organizations.\n• A company closing a regional office and eliminating all positions at that location.\n• An organization shifting from in-house to outsourced functions, eliminating internal roles.\n• A startup that raised less funding than expected and must reduce burn rate immediately.\n• A restructuring where layers of management are removed to flatten the organization."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Define and document selection criteria before any names are identified — criteria must be neutral and job-related.\n2. Run an adverse impact analysis on the selected population before the RIF is finalized.\n3. Prepare a written business rationale for the RIF that does not reference any individual's performance.\n4. Document the separation terms, severance calculations, and legal review of all agreements.\n5. Keep records of WARN Act analysis, notice timelines, and any required state-specific filings."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: A selection pool where employees selected for separation are disproportionately from a protected group. This requires legal review before the RIF is announced."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: HR and employment counsel must be involved from the beginning. Do not identify individuals, set dates, or communicate anything internally until the full process has been reviewed and cleared."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

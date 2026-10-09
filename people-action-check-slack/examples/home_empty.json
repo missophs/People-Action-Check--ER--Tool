@@ -1,0 +1,98 @@
+{
+  "type": "home",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "People Action Check"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Private decision support for consistent, documented people-management actions."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Manager workspace · Policies are read-only · Your checks stay private until submitted"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Start a new check"
+          },
+          "action_id": "new",
+          "value": "new"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "My history"
+          },
+          "action_id": "my_history",
+          "value": "my_history"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "refresh_home",
+          "value": "refresh_home"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Company policies"
+          },
+          "action_id": "policies",
+          "value": "policies"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Get started"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No saved checks yet. Start a new check to document a situation and assess next steps."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "General guidance only — not legal advice. © 2026 Melissa A. Weiss. All rights reserved."
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📉 Performance Decline"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 10 · Moderate Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "A team member is not meeting expected standards of work output, quality, or behavior. Very manageable when handled with clear documentation and consistent communication."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee who consistently missed quarterly targets despite coaching conversations over three months.\n• A team member whose work quality dropped since returning from a leave of absence.\n• Someone who used to be a strong performer but has been disengaged and error-prone for six weeks.\n• An employee who repeatedly submits reports late after multiple reminders.\n• A customer-facing employee receiving escalating complaints about attitude or responsiveness.\n• A team member who stops contributing in meetings and misses collaborative deadlines.\n• An employee whose output volume dropped significantly without a clear explanation.\n• Someone who was coached verbally twice and is now making the same errors again."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Send a follow-up email after every coaching conversation summarizing what was discussed and what is expected.\n2. Use a simple log: date, what you observed, what you said, how the employee responded.\n3. Save any examples of substandard work — reports, emails, error logs — as attachments.\n4. Document goals in writing before any review period begins so expectations are clear.\n5. Note any explanation the employee gave and whether it was substantiated."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Performance issues that began after an accommodation request, leave, or protected disclosure create legal exposure and must be handled carefully."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: If you are unsure whether the performance issue is connected to a medical condition, leave, or a recent complaint — stop and contact HR before doing anything else."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Next situation"
+  }
+}

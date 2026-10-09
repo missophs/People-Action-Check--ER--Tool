@@ -1,0 +1,145 @@
+{
+  "type": "modal",
+  "callback_id": "pick",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Start a people action check"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Select the situations you want to assess. Your work stays private until you explicitly submit a snapshot to HR."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Restricted HR data · Use the minimum employee information needed"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "scenarios",
+      "label": {
+        "type": "plain_text",
+        "text": "Situation type"
+      },
+      "element": {
+        "type": "multi_static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Performance Decline"
+            },
+            "value": "Performance Decline"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Attendance Issue"
+            },
+            "value": "Attendance Issue"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Interpersonal Conflict"
+            },
+            "value": "Interpersonal Conflict"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Policy Violation"
+            },
+            "value": "Policy Violation"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Termination Consideration"
+            },
+            "value": "Termination Consideration"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Accommodation Request"
+            },
+            "value": "Accommodation Request"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Harassment / Discrimination"
+            },
+            "value": "Harassment / Discrimination"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Retaliation Concern"
+            },
+            "value": "Retaliation Concern"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Reduction in Force"
+            },
+            "value": "Reduction in Force"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Leave of Absence"
+            },
+            "value": "Leave of Absence"
+          }
+        ],
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "input",
+      "block_id": "employee",
+      "label": {
+        "type": "plain_text",
+        "text": "Employee name or case reference (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 150,
+        "action_id": "value"
+      },
+      "optional": true
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Continue"
+  }
+}

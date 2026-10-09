@@ -1,0 +1,76 @@
+{
+  "type": "modal",
+  "callback_id": "delivery",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Submission saved — delivery needs attention"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 LOW RISK\nRisk scale: 🟢 Low  ·  🟡 Medium  ·  🔴 High\nContinue with the documented manager process and confirm company policy."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "HR review queue: Saved"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Manager report: Delivered\nHR notification: Needs retry — Slack is rate limiting requests. Wait a moment and retry."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "A Slack delivery failed. Retry sends only items that were not completed."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh status"
+          },
+          "action_id": "delivery_status",
+          "value": "synthetic-submission"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Retry failed delivery"
+          },
+          "action_id": "retry_delivery",
+          "value": "synthetic-submission"
+        }
+      ]
+    }
+  ]
+}

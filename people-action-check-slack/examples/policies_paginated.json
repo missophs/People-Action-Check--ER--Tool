@@ -1,0 +1,444 @@
+{
+  "type": "modal",
+  "callback_id": "policy_list",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Company Policies — shared across your workspace"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Sample policy · Performance Management"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Read"
+          },
+          "action_id": "read_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit"
+          },
+          "action_id": "edit_policy",
+          "value": "synthetic-policy"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete"
+          },
+          "action_id": "delete_policy",
+          "value": "synthetic-policy"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Previous"
+          },
+          "action_id": "policy_page",
+          "value": "0"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Next"
+          },
+          "action_id": "policy_page_nav1",
+          "value": "2"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "policy_page_nav2",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

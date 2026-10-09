@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "⏰ Attendance Issue"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Moderate Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "An employee is frequently absent, late, or leaving early in a pattern affecting their work and team. Straightforward when policy is clear — complex when protected leave is involved."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee who has called out 8 times in 10 weeks with no medical documentation.\n• Someone consistently 30–45 minutes late despite two prior verbal conversations.\n• Absences that cluster around Mondays and Fridays in a recurring pattern.\n• An employee who leaves early several times a week without prior approval.\n• A team member whose unplanned absences are causing coverage gaps for the rest of the team.\n• Someone who has exhausted their PTO balance and continues calling out.\n• An employee who calls out frequently but refuses to provide any explanation.\n• A remote employee who is repeatedly unavailable during core hours without notice."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Keep a running attendance log with exact dates, times, and any reason given by the employee.\n2. Note when you notified the employee and what their response was — in writing, even a quick email.\n3. Save any documentation the employee provided (doctor's notes, text messages, emails).\n4. Record whether each absence was excused or unexcused per your policy.\n5. If a pattern is emerging (e.g. always Mondays), note the pattern explicitly in your log."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Absences that may qualify as FMLA, ADA accommodations, or state-protected leave. Disciplining an employee for protected absences is one of the most common HR legal mistakes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: If the employee has mentioned a health condition, family care responsibility, or anything that sounds like it could be protected — contact HR before issuing any discipline."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

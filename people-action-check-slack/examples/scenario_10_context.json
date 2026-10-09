@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🗓️ Leave of Absence"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Moderate Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "An employee needs extended time off for medical, family, personal, or other reasons. Different leave types carry different legal protections. Getting the leave type wrong is a common and costly error."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee requesting 6 weeks off following a surgery with a slow recovery.\n• A team member needing intermittent leave to care for a parent with a chronic illness.\n• An employee who has exhausted PTO and is asking for unpaid leave due to a mental health condition.\n• A new parent requesting leave beyond what the company's paid policy covers.\n• An employee called to active military duty requiring extended absence.\n• A team member experiencing a pregnancy complication requiring immediate time off.\n• An employee requesting leave to care for a seriously ill child or spouse.\n• Someone requesting a personal leave of absence for reasons unrelated to a medical condition."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Record the date the employee first communicated the need for leave — even informally.\n2. Document which leave type(s) apply and the basis for that determination.\n3. Log all paperwork sent and received, including dates and delivery method.\n4. Keep a record of any medical certifications, including when they were requested and received.\n5. Document the return-to-work date, any extensions granted, and whether an accommodation review was conducted."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Assuming a leave request is just a 'time off' issue. Many leaves trigger FMLA, ADA, state leave law, or all three simultaneously."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: If you are not certain which leave law applies — or if the employee has a medical condition involved in any way — contact HR before responding to the request."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

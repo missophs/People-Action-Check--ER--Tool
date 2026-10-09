@@ -1,0 +1,448 @@
+{
+  "type": "modal",
+  "callback_id": "answers",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Performance Decline"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Assessment 1 of 10 · 50 of 50 answered"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Complete each answer to calculate the assessment. Save and close keeps submitted answers and notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation matters: use the notes under each answer to record dates, facts, conversations, and supporting records."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Have performance expectations been clearly communicated in writing?\nWhy this matters: Verbal expectations alone are harder to defend. Look for emails, job descriptions, goal-setting documents, or meeting notes."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "2. Has this issue been documented in prior conversations or reviews?\nWhy this matters: A first documented conversation is fine — just make sure it is documented. Verbal-only history creates risk."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q1_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n1_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "3. Has the employee been given a clear opportunity to respond to concerns?\nWhy this matters: This means a real conversation, not just an email. The employee should be able to explain context."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q2_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n2_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "4. Is the performance decline consistent and ongoing (not a single incident)?\nWhy this matters: A pattern over time is stronger than one bad week. Consider whether something changed."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q3_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n3_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "5. Are there known leave, medical, or accommodation factors at play? [Critical]\nWhy this matters: If yes, or if you're not sure, stop and consult HR before taking any action."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q4_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "No"
+          },
+          "value": "no"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n4_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Relevant policies: Sample policy"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Company policies"
+          },
+          "action_id": "policies",
+          "value": "policies"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "block_id": "nav_0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "After submitting this page"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Next situation"
+            },
+            "value": "next"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Save and close"
+            },
+            "value": "save"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Next situation"
+          },
+          "value": "next"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear page"
+          },
+          "action_id": "clear_answers",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit answers"
+  }
+}

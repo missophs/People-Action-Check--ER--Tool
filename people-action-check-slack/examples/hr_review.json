@@ -1,0 +1,432 @@
+{
+  "type": "modal",
+  "callback_id": "result",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-submission\",\"revision\":0}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Risk assessment"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 LOW RISK\nRisk scale: 🟢 Low  ·  🟡 Medium  ·  🔴 High\nContinue with the documented manager process and confirm company policy.\n\nEmployee or case: Synthetic employee"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 10 · New · Yes 44 · No 6 · Don’t know 0"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "The result reflects the weighted answers across this check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Assessment uses polarity-aware scoring (v2). Guidance is not clearance to act."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation & supporting evidence"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Keep the factual record together before taking action or submitting to HR."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "https://example.com/evidence"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No documents attached."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Performance Decline"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Schedule a documented performance conversation this week with specific examples.\n2. Issue a written memo confirming expectations, the gap, and what success looks like. Get a signature.\n3. Set a structured check-in date 2–4 weeks out and put it on the calendar."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "If you are unsure whether the performance issue is connected to a medical condition, leave, or a recent complaint — stop and contact HR before doing anything else."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Recorded answers"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 1"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Have performance expectations been clearly communicated in writing?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 2"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Has this issue been documented in prior conversations or reviews?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 3"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Has the employee been given a clear opportunity to respond to concerns?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 4"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Is the performance decline consistent and ongoing (not a single incident)?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 5"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Are there known leave, medical, or accommodation factors at play?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: NO\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 1"
+          },
+          "action_id": "result_page_0",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":0,\"hr\":true}",
+          "accessibility_label": "View Performance Decline"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 2"
+          },
+          "action_id": "result_page_1",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":1,\"hr\":true}",
+          "accessibility_label": "View Attendance Issue"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 3"
+          },
+          "action_id": "result_page_2",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":2,\"hr\":true}",
+          "accessibility_label": "View Interpersonal Conflict"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 4"
+          },
+          "action_id": "result_page_3",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":3,\"hr\":true}",
+          "accessibility_label": "View Policy Violation"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 5"
+          },
+          "action_id": "result_page_4",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":4,\"hr\":true}",
+          "accessibility_label": "View Termination Consideration"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 6"
+          },
+          "action_id": "result_page_5",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":5,\"hr\":true}",
+          "accessibility_label": "View Accommodation Request"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 7"
+          },
+          "action_id": "result_page_6",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":6,\"hr\":true}",
+          "accessibility_label": "View Harassment / Discrimination"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 8"
+          },
+          "action_id": "result_page_7",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":7,\"hr\":true}",
+          "accessibility_label": "View Retaliation Concern"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 9"
+          },
+          "action_id": "result_page_8",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":8,\"hr\":true}",
+          "accessibility_label": "View Reduction in Force"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 10"
+          },
+          "action_id": "result_page_9",
+          "value": "{\"id\":\"synthetic-submission\",\"page\":9,\"hr\":true}",
+          "accessibility_label": "View Leave of Absence"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Submitted by <@UDEMO> · <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00>"
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "status",
+      "label": {
+        "type": "plain_text",
+        "text": "Review status"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "New"
+            },
+            "value": "New"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "In review"
+            },
+            "value": "In review"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Closed"
+            },
+            "value": "Closed"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "New"
+          },
+          "value": "New"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "input",
+      "block_id": "reviewNote",
+      "label": {
+        "type": "plain_text",
+        "text": "HR review note"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "hrFiles",
+      "label": {
+        "type": "plain_text",
+        "text": "Attach HR documents (optional)"
+      },
+      "element": {
+        "type": "file_input",
+        "max_files": 5,
+        "filetypes": [
+          "pdf",
+          "doc",
+          "docx",
+          "xls",
+          "xlsx",
+          "csv",
+          "txt",
+          "png",
+          "jpg",
+          "jpeg"
+        ],
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "General guidance only — not legal advice. © 2026 Melissa A. Weiss. All rights reserved."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Save review"
+  }
+}

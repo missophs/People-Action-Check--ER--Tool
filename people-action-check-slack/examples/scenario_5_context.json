@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🚪 Termination Consideration"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · High Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "You are considering ending an employee's employment. This is the highest-stakes management decision you will make and carries significant legal exposure if not handled correctly."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee who failed to meet goals outlined in a formal Performance Improvement Plan.\n• Someone who violated a zero-tolerance policy (harassment, theft, falsifying records).\n• A long-tenured employee whose role is being eliminated as part of a restructuring.\n• An employee who has received multiple written warnings and continues the same behavior.\n• Someone whose conduct in a single incident was severe enough to warrant immediate termination.\n• An employee who abandoned their position without notice or explanation.\n• A manager whose team filed multiple substantiated complaints about their leadership.\n• Someone who failed a drug or background screening that is a condition of employment."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Compile the full disciplinary history in chronological order: verbal warnings, written warnings, PIP, and outcomes.\n2. Confirm in writing that the employee received, signed, and had a chance to respond to each step.\n3. Document the specific reason for termination in one clear sentence — this will appear in official records.\n4. Note the date HR and/or legal reviewed and cleared the termination.\n5. Prepare a separation checklist: final pay, equipment return, benefit end dates, COBRA notice, access revocation."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Any termination where the employee recently filed a complaint, requested accommodation, took protected leave, or belongs to a protected class."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: Contact HR before scheduling the meeting, before saying anything to the employee, and before preparing any paperwork. No termination should move forward without HR sign-off."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

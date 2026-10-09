@@ -1,0 +1,427 @@
+{
+  "type": "modal",
+  "callback_id": "answers",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Attendance Issue"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Assessment 1 of 1 · 5 of 5 answered"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Complete each answer to calculate the assessment. Save and close keeps submitted answers and notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation matters: use the notes under each answer to record dates, facts, conversations, and supporting records."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Is there a written attendance policy the employee has acknowledged?\nWhy this matters: Without a clear policy, enforcement is difficult to defend. Check your employee handbook."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "2. Has the pattern been documented with dates and frequency?\nWhy this matters: A log of specific dates and context provided matters enormously if this progresses to discipline."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q1_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n1_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "3. Has the employee been formally notified that attendance is an issue?\nWhy this matters: A documented conversation is required before formal discipline."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q2_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n2_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "4. Have you confirmed that no protected leave applies to these absences? [Critical]\nWhy this matters: FMLA, ADA, state sick leave, and other protections can cover absences you might otherwise count."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q3_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n3_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "5. Has the policy been enforced consistently across your team?\nWhy this matters: If you have tolerated similar patterns from others, disciplining one person exposes you to disparate treatment claims."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q4_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n4_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "nav_0_1",
+      "label": {
+        "type": "plain_text",
+        "text": "After submitting this page"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "View assessment"
+            },
+            "value": "next"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Save and close"
+            },
+            "value": "save"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "View assessment"
+          },
+          "value": "next"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear page"
+          },
+          "action_id": "clear_answers",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit answers"
+  }
+}

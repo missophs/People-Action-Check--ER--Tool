@@ -1,0 +1,434 @@
+{
+  "type": "modal",
+  "callback_id": "answers",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Reduction in Force"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Assessment 9 of 10 · 50 of 50 answered"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Complete each answer to calculate the assessment. Save and close keeps submitted answers and notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation matters: use the notes under each answer to record dates, facts, conversations, and supporting records."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "41. Is there a documented, legitimate business rationale for the RIF?\nWhy this matters: Budget reduction, restructuring, role elimination — the reason must be real and documentable."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q40_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n40_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "42. Were the selection criteria defined and applied consistently before individuals were identified? [Critical]\nWhy this matters: Selection criteria must be established before you run the names."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q41_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n41_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "43. Has legal reviewed the selection pool for adverse impact? [Critical]\nWhy this matters: Run the statistical analysis: what percentage of each protected group is affected?"
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q42_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n42_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "44. Have WARN Act obligations been assessed (for US employers)? [Critical]\nWhy this matters: 50+ employees laid off in 30 days at a single site may trigger 60-day advance notice requirements."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q43_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n43_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "45. Are severance agreements and required disclosures prepared and legally reviewed?\nWhy this matters: Agreements offering severance in exchange for a release of claims must meet specific legal requirements."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q44_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n44_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "nav_8_1",
+      "label": {
+        "type": "plain_text",
+        "text": "After submitting this page"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Next situation"
+            },
+            "value": "next"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Save and close"
+            },
+            "value": "save"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Previous situation"
+            },
+            "value": "back"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Next situation"
+          },
+          "value": "next"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear page"
+          },
+          "action_id": "clear_answers",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit answers"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "type": "modal",
+  "callback_id": "attachments_save",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Add documentation"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Add factual notes, secure document links, and relevant files. Examples include coaching notes, emails, signed acknowledgements, timelines, policies, and work samples."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Use the minimum employee information needed · Slack workspace access and retention rules apply"
+        }
+      ]
+    },
+    {
+      "type": "input",
+      "block_id": "links",
+      "label": {
+        "type": "plain_text",
+        "text": "Documentation notes and secure links"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 3000,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "files",
+      "label": {
+        "type": "plain_text",
+        "text": "Attach supporting documents (optional)"
+      },
+      "element": {
+        "type": "file_input",
+        "max_files": 5,
+        "filetypes": [
+          "pdf",
+          "doc",
+          "docx",
+          "xls",
+          "xlsx",
+          "csv",
+          "txt",
+          "png",
+          "jpg",
+          "jpeg"
+        ],
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No documents attached."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear form"
+          },
+          "action_id": "clear_evidence_form",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Save documentation"
+  }
+}

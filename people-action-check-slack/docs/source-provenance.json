@@ -1,0 +1,9 @@
+{
+  "source": "People-Action-Check-preview.html",
+  "sourceSha256": "7f8ea965a8a25d5331f1f9155d7de267beb6c7cc890f529a4d74d47cf5558092",
+  "preservedContentModuleSha256": "008f03a0ede154c2d3d48e9053f650c385e9283a49182da8b68c01e10f9def60",
+  "scenarios": 10,
+  "questions": 50,
+  "guidanceSteps": 90,
+  "scoring": "Legacy function preserved; v2 polarity normalization in src/scoring.js"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "modal",
+  "callback_id": "policy_list",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Company Policies — shared across your workspace\nNo policies have been added yet."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "policy_page",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

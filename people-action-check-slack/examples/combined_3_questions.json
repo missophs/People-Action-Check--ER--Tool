@@ -1,0 +1,434 @@
+{
+  "type": "modal",
+  "callback_id": "answers",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Interpersonal Conflict"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Assessment 3 of 10 · 50 of 50 answered"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Complete each answer to calculate the assessment. Save and close keeps submitted answers and notes."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation matters: use the notes under each answer to record dates, facts, conversations, and supporting records."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "11. Have you gathered facts from all parties involved, not just the complainant?\nWhy this matters: Acting on one person's account without hearing others is a procedural mistake."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q10_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n10_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "12. Have you given each affected employee an opportunity to be heard?\nWhy this matters: This protects both the process and the employees."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q11_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n11_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "13. Is the behavior materially affecting work output, team function, or the work environment?\nWhy this matters: Personality differences are not automatically an HR matter."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q12_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n12_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "14. Are there prior documented incidents involving these individuals?\nWhy this matters: A pattern changes the situation significantly."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q13_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Yes"
+          },
+          "value": "yes"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n13_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "15. Is the situation escalating or involving behavior tied to a protected characteristic? [Critical]\nWhy this matters: If the behavior involves race, gender, age, religion, or other protected characteristics, this may be harassment."
+      }
+    },
+    {
+      "type": "input",
+      "block_id": "q14_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Answer"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Yes"
+            },
+            "value": "yes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "No"
+            },
+            "value": "no"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Don’t know"
+            },
+            "value": "unknown"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "No"
+          },
+          "value": "no"
+        },
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "n14_1",
+      "label": {
+        "type": "plain_text",
+        "text": "Notes (optional)"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 1500,
+        "action_id": "value"
+      },
+      "optional": true
+    },
+    {
+      "type": "input",
+      "block_id": "nav_2_1",
+      "label": {
+        "type": "plain_text",
+        "text": "After submitting this page"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Next situation"
+            },
+            "value": "next"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Save and close"
+            },
+            "value": "save"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Previous situation"
+            },
+            "value": "back"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Next situation"
+          },
+          "value": "next"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Clear page"
+          },
+          "action_id": "clear_answers",
+          "value": "synthetic-check"
+        }
+      ]
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit answers"
+  }
+}

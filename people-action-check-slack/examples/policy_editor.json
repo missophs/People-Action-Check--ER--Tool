@@ -1,0 +1,122 @@
+{
+  "type": "modal",
+  "callback_id": "policy_save",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-policy\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "input",
+      "block_id": "name",
+      "label": {
+        "type": "plain_text",
+        "text": "Document name"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 150,
+        "initial_value": "Sample policy",
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "input",
+      "block_id": "category",
+      "label": {
+        "type": "plain_text",
+        "text": "Category"
+      },
+      "element": {
+        "type": "static_select",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Attendance & Leave"
+            },
+            "value": "attendance"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Performance Management"
+            },
+            "value": "performance"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Code of Conduct"
+            },
+            "value": "conduct"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Accommodation & ADA"
+            },
+            "value": "accommodation"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Termination & RIF"
+            },
+            "value": "separation"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Employee Handbook"
+            },
+            "value": "handbook"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Other / General"
+            },
+            "value": "other"
+          }
+        ],
+        "initial_option": {
+          "text": {
+            "type": "plain_text",
+            "text": "Performance Management"
+          },
+          "value": "performance"
+        },
+        "action_id": "value"
+      },
+      "optional": false
+    },
+    {
+      "type": "input",
+      "block_id": "content",
+      "label": {
+        "type": "plain_text",
+        "text": "Policy text or document URL"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "max_length": 3000,
+        "initial_value": "Company policy example. https://example.com/policy",
+        "action_id": "value"
+      },
+      "optional": false
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Save"
+  }
+}

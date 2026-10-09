@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "⚠️ Policy Violation"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Moderate Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "An employee has violated a written or established workplace policy. The response depends on severity, whether it was a first offense, and whether the policy has been applied consistently."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee who used company equipment for personal business in violation of the IT policy.\n• Someone who shared confidential client information externally without authorization.\n• A team member who bypassed a safety protocol resulting in a near-miss incident.\n• An employee who falsified time records.\n• Someone who violated the social media policy by posting about a client.\n• A manager who failed to follow the required approval process for a significant purchase.\n• An employee caught accessing systems or files outside their authorized scope.\n• Someone who violated the workplace conduct policy through inappropriate language or behavior."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Save a copy of the policy that was violated, including the version and date the employee signed or acknowledged it.\n2. Write a factual description of the violation: what happened, when, who observed it, what evidence exists.\n3. Document how you became aware of the issue and any investigation steps you took.\n4. Note whether this is a first offense or whether there is a prior discipline history.\n5. Record any mitigating explanation the employee offered."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Selective enforcement. If you discipline one employee for a violation but have tolerated the same behavior from others, you create disparate treatment risk."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: If you are not certain the policy applies clearly to this situation, or if similar behavior has been overlooked in the past — contact HR before taking action."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

@@ -1,0 +1,50 @@
+
+> people-action-check-slack@1.3.0 test
+> node --test test/*.test.js
+
+✔ complete content: 10 scenarios and 50 questions (0.370667ms)
+✔ critical no and unknown override; exact thresholds (0.1305ms)
+✔ every scenario, all combined pages, long notes satisfy surface limits (3.235583ms)
+✔ ownership isolation, updates, deletes and persistence (3.39075ms)
+✔ report includes every question, note, and next step (0.218041ms)
+(node:60580) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ real Bolt dispatch: command, Home events, new, private history and refresh (9.915958ms)
+✔ Home refreshes immediately and clear history requires confirmation (2.504417ms)
+✔ all 10 scenarios: pick, contexts, partial save/resume, back, completion, edit and rerun (23.792167ms)
+✔ supporting links and follow-up are validated, saved, visible, and dismissible (4.593375ms)
+✔ clear controls reset questionnaire and evidence forms before explicit submission (2.115958ms)
+✔ Word report uses real docx generation and private DM; API failure becomes visible (36.855167ms)
+✔ HR snapshot, partial delivery failure, retry, duplicate submission and review protection (10.029375ms)
+✔ HR notes are not clobbered when another reviewer saves; supporting snapshots remain after owner deletion (8.872458ms)
+✔ policies open from Home, push from questions, validate fields, edit/read/delete, and paginate (4.451666ms)
+✔ typed ownership and HR guards reject forged actions, callbacks and other workspaces (2.179375ms)
+✔ HR governance center shows controls and immutable audit activity (9.18175ms)
+✔ stale answer and attachment forms reject writes and missing records get a clean response (1.549417ms)
+✔ database failure acknowledges submission; API failures show recoverable UI (0.859125ms)
+(node:60581) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all six risk-on-Yes questions: No reduces risk; Yes and unknown raise risk; raw counts preserved (1.590542ms)
+✔ file-backed restart preserves checks, policy revisions, HR reviews and delivery state with private permissions (4.27075ms)
+✔ governance audit is append-only and retention removes expired governed records (0.548125ms)
+✔ configuration rejects missing/invalid/empty HR lists and invalid retention; startup rejects token/workspace mismatch (0.324958ms)
+✔ every generated interactive control routes to exactly one actual Bolt registration (4.879625ms)
+✔ maximum content and hundreds of policies stay within Block Kit limits (7.882875ms)
+✔ review paging preserves edited inputs without bypassing optimistic revision checks (8.606ms)
+✔ double-click delivery retry only executes one in-flight request and retains concurrent HR notes (26.114083ms)
+✔ startup environment, manifest and registered triggers agree exactly (2.449292ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 315.54525
+
+> people-action-check-slack@1.3.0 check
+> node scripts/validate.js
+
+81 synthetic payloads: structure, handler mappings and manifest checks passed.
+(node:60597) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)

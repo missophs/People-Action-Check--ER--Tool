@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "♿ Accommodation Request"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · High Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "An employee has requested a change to their work conditions due to a disability, medical condition, or religious belief. The law requires an interactive process — ignoring or dismissing the request is not an option."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee with a back condition requesting a standing desk or modified workstation.\n• A team member with anxiety disorder requesting reduced travel or remote work.\n• An employee requesting schedule modifications for religious observance.\n• Someone requesting additional break time due to a chronic health condition.\n• An employee returning from medical leave who cannot perform all previous job functions.\n• A team member with a hearing impairment requesting captioning for all video meetings.\n• An employee with ADHD requesting written instructions and deadline reminders.\n• Someone requesting a private space for medical treatment during the workday."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Document the date and method of the request — even if it was verbal, note it in writing the same day.\n2. Record every step of the interactive process: who was involved, what was discussed, what options were explored.\n3. Keep copies of any medical documentation provided, stored securely and separately from the employee's general file.\n4. Document the accommodation decision and the specific rationale in writing.\n5. If accommodation is denied, document why — and have legal review that rationale before communicating it."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Treating an accommodation request informally or verbally without documentation. Delay and inaction are both forms of denial under the law."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: Contact HR the same day any accommodation request is made — even if the employee frames it casually. The legal clock starts when the need is expressed, not when a formal form is submitted."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🤝 Interpersonal Conflict"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Moderate Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Two or more employees are in conflict through disagreements or friction affecting the team dynamic. Most conflicts are manageable. Some escalate into harassment or hostile workplace territory."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• Two team members who had a heated argument in a meeting and are no longer speaking.\n• An employee complaining that a peer is undermining them in front of clients.\n• A group dynamic where one person is being excluded from team communication.\n• A manager receiving complaints from multiple employees about one person's behavior.\n• Two employees who work closely together but have reached a point of open hostility.\n• A team member who is passive-aggressively sabotaging a colleague's projects.\n• A newer employee complaining that a tenured peer is dismissive and demeaning.\n• Conflict that started as a work disagreement and has become personal."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Write a brief summary of what each party told you — separately — including dates and specific quotes where possible.\n2. Document any witnesses who observed the behavior.\n3. Note any prior incidents, even informal complaints you heard but did not formally log.\n4. Record the outcome of any mediation or coaching conversation in writing and share it with both parties.\n5. Keep a timeline: when the conflict started, key incidents, what actions you took, and outcomes."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Patterns of behavior targeting someone based on a protected characteristic. What looks like a personality conflict may legally be harassment."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: If any part of the conflict involves comments about race, gender, age, disability, religion, or any protected characteristic — treat it as a potential harassment matter and contact HR immediately."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

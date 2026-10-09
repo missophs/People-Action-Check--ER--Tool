@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🛑 Harassment / Discrimination"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · High Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "An employee has reported being harassed or discriminated against based on a protected characteristic. This triggers immediate obligations and the complainant must be protected from retaliation immediately."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• An employee reports their manager made repeated comments about their age and ability to 'keep up.'\n• A team member alleges they were passed over for promotion due to their race.\n• An employee reports unwanted physical contact or sexually suggestive comments from a colleague.\n• Someone reports being excluded from meetings or opportunities after disclosing a pregnancy.\n• An employee complains about a pattern of demeaning jokes targeting their national origin.\n• A team member reports that their manager created a hostile environment after they disclosed a disability.\n• An employee says they were threatened or intimidated for reporting a prior concern.\n• Someone reports being assigned lesser work or fewer opportunities than peers of a different gender."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Write down the complaint exactly as reported — use the employee's own words wherever possible.\n2. Note the date, time, location, and method of the complaint (in person, email, etc.).\n3. Document the names of any witnesses mentioned and any evidence the employee referenced.\n4. Record every investigation step: who was interviewed, when, what they said, and what documentation was reviewed.\n5. Preserve all relevant emails, messages, and records. Do not allow anything to be deleted."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: Any action that could be interpreted as punishing the person who raised the complaint. Retaliation claims are often more costly than the underlying complaint."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: Contact HR immediately — before responding to the employee, before speaking to the accused, and before taking any action. This is not optional."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

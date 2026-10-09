@@ -1,0 +1,109 @@
+{
+  "type": "modal",
+  "callback_id": "context",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":1}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🔁 Retaliation Concern"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · High Risk"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "You are considering an adverse action against an employee who recently engaged in protected activity — filing a complaint, requesting accommodation, taking leave, or participating in an investigation."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟦 Common examples"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "• A manager wants to put an employee on a PIP two weeks after that employee filed an HR complaint.\n• An employee who testified in an investigation is suddenly moved to a less desirable shift.\n• A high performer who requested FMLA leave receives their first negative review one month later.\n• An employee who reported a safety violation is excluded from a project they previously led.\n• A team member who requested an accommodation is passed over for a promotion with no documented rationale.\n• An employee who filed an EEOC charge is suddenly subject to new performance monitoring.\n• A manager attempts to reassign an employee's responsibilities after they raised a pay equity concern.\n• An employee who participated in a harassment investigation notices a sudden change in their manager's behavior toward them."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "🟨 Documentation checklist"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Gather and preserve these records as you work through the check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Document the timeline explicitly: when did the protected activity occur, and when did the adverse action arise.\n2. Write down the business rationale for the adverse action and confirm it predates the protected activity.\n3. Gather evidence that the performance or conduct issue was documented before the complaint was filed.\n4. Note who else made the decision and ensure there is more than one person's input documented.\n5. Record that HR and/or legal reviewed and approved the action before it was taken."
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "You can attach files and links securely from the completed assessment before submitting it to HR."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Watch for: The 'temporal proximity' problem. Courts treat close timing between protected activity and adverse action as evidence of retaliation."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR: Do not take any adverse action — including a conversation, a schedule change, or a performance warning — without HR and legal review first. The risk here is significant."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Start the check"
+  }
+}

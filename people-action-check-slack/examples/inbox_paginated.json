@@ -1,0 +1,378 @@
+{
+  "type": "modal",
+  "callback_id": "inbox",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "HR review queue"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "40 total submissions · Private to configured HR reviewers"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "🟢 *Synthetic employee*\nLow Risk · New · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence\nSubmitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00> by <@UDEMO>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Previous"
+          },
+          "action_id": "inbox_page",
+          "value": "0"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Next"
+          },
+          "action_id": "inbox_page_nav1",
+          "value": "2"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Refresh"
+          },
+          "action_id": "inbox_page_nav2",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

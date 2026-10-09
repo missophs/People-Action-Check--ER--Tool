@@ -1,0 +1,42 @@
+{
+  "text": "People Action Check ready for HR review: Synthetic employee.",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "New HR review"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 Synthetic employee\nLow Risk · Performance Decline, Attendance Issue, Interpersonal Conflict, Policy Violation, Termination Consideration, Accommodation Request, Harassment / Discrimination, Retaliation Concern, Reduction in Force, Leave of Absence"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Status: New · Submitted <!date^1790683200^{date_short_pretty} at {time}|2026-09-29T12:00>"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Open review"
+          },
+          "action_id": "review",
+          "value": "synthetic-submission"
+        }
+      ]
+    }
+  ]
+}

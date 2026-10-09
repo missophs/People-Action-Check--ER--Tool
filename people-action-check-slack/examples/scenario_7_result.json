@@ -1,0 +1,343 @@
+{
+  "type": "modal",
+  "callback_id": "result",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"revision\":0}",
+  "blocks": [
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Risk assessment"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🟢 LOW RISK\nRisk scale: 🟢 Low  ·  🟡 Medium  ·  🔴 High\nContinue with the documented manager process and confirm company policy.\n\nEmployee or case: Synthetic employee"
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Situation 1 of 1 · Private draft · Yes 5 · No 0 · Don’t know 0"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "The result reflects the weighted answers across this check."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Assessment uses polarity-aware scoring (v2). Guidance is not clearance to act."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "📎 Documentation & supporting evidence"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Keep the factual record together before taking action or submitting to HR."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No supporting links or context added yet."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "No documents attached."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Add documentation"
+          },
+          "action_id": "attachments",
+          "value": "synthetic-check",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Harassment / Discrimination"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "1. Ensure the investigation is conducted by a neutral party with no stake in the outcome.\n2. Document all investigation steps, witness interviews, and findings in a formal written report.\n3. Communicate the outcome to both the complainant and respondent as required by your policy."
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Contact HR immediately — before responding to the employee, before speaking to the accused, and before taking any action. This is not optional."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Recorded answers"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 1"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Has the complaint been documented and acknowledged to the complainant?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 2"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Is HR or legal already involved in this situation?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 3"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Has the complainant been informed of their protections against retaliation?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 4"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Is a neutral investigation underway or formally planned?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Question 5"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Are the parties currently separated to minimize further harm while the investigation proceeds?"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "🔷 ANSWER: YES\n📝 NOTE: No note provided"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Situation 1"
+          },
+          "action_id": "result_page_0",
+          "value": "{\"id\":\"synthetic-check\",\"page\":0,\"hr\":false}",
+          "accessibility_label": "View Harassment / Discrimination"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Edit answers"
+          },
+          "action_id": "edit",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Report to my DM"
+          },
+          "action_id": "export",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Send to me and HR"
+          },
+          "action_id": "share",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Follow-up"
+          },
+          "action_id": "followup",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Run again"
+          },
+          "action_id": "rerun",
+          "value": "synthetic-check"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Delete check"
+          },
+          "action_id": "delete_check",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Submission delivery"
+          },
+          "action_id": "submission_status",
+          "value": "synthetic-check"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "General guidance only — not legal advice. © 2026 Melissa A. Weiss. All rights reserved."
+      }
+    }
+  ]
+}

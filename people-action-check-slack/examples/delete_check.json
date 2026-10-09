@@ -1,0 +1,26 @@
+{
+  "type": "modal",
+  "callback_id": "delete_confirm",
+  "title": {
+    "type": "plain_text",
+    "text": "People Action Check"
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Close"
+  },
+  "private_metadata": "{\"id\":\"synthetic-check\",\"type\":\"check\"}",
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Delete this check? This cannot be undone. HR snapshots and files already delivered to Slack remain available."
+      }
+    }
+  ],
+  "submit": {
+    "type": "plain_text",
+    "text": "Delete"
+  }
+}
