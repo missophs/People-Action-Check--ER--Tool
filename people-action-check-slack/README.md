@@ -2,6 +2,10 @@
 
 An installable, single-workspace Slack Bolt app using Socket Mode, Block Kit, SQLite, and Word reports. Original content © Melissa A. Weiss; all rights reserved. No public redistribution license is granted by this project.
 
+## Current cloud deployment
+
+The existing Slack app runs on Cloudflare Workers with Supabase storage. The October 9 connection repair restored Slack interactivity and verified live history, assessment, policy and HR queue reads. See [repair evidence](docs/RESUME-2026-10-09.md) and [cloud deployment instructions](docs/CLOUD-CUTOVER.md). The instructions below describe the optional local Socket Mode installation; do not run it alongside the cloud connection.
+
 ## Install
 
 1. Install Node.js 24 or newer (Node 24 LTS recommended).
